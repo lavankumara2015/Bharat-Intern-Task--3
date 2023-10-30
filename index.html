@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="netflix icon" href="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" type="netflix icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+               
+                background-size: 100% 90%;
+                
+            }
+            header{
+                display: flex;
+                
+            }
+            .frm{
+             margin-left: 50%;
+            }
+            select{
+                width: 100px;
+                height: 40px;
+                color: white;
+                background-color: rgb(40, 26, 26);
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+            button{
+                width: 100px;
+                height: 40px;
+                color: white;
+                background-color: rgb(40, 26, 26);
+                border-radius: 10px;
+                border-color:2px solid black;
+                
+            }
+            .tit{
+                color: white;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .fir{
+                display: flex;
+                border: 2px solid black;
+                width: 100%;
+                height: 500px;
+                margin-top: 40px;
+                padding-bottom: 50px;
+                outline: 20px solid rgb(29, 23, 23);
+                background-color:black;
+                color: white;
+            }  
+            .dow{
+                display: flex;
+                border: 2px solid black;
+                width: 100%;
+                height: 400px;
+                padding: 30PX;
+            
+                outline: 20px solid rgb(29, 23, 23);
+                background-color:black;
+                color: white;
+            }
+            .wat{
+                display: flex;
+                border: 2px solid black;
+                width: 100%;
+                height: 500px;
+                background-color: black;
+                color: white;
+                outline: 10px solid rgb(29, 23, 23);
+            }
+            .kid{
+                display: flex;
+                border: 2px solid black;
+                width: 100%;
+                height: 500px;
+                background-color: black;
+                color: white;
+                outline: 10px solid rgb(29, 23, 23);
+            }
+            .ask{
+                display: flex;
+                border: 1px solid black;
+                width: 100%;
+                height: 120px;
+                background-color: black;
+                color: white;
+                outline: 10px solid rgb(11, 7, 7);
+                
+            }
+            .last{
+                border: 2px solid black;
+                outline: 10px solid rgb(0, 0, 0);
+                width: 100%;
+                height: 600px;
+                background-color: black;
+                color: white;
+            }
+           
+            .foot{
+                display: flex;
+                
+                 width: 100%;
+                 height: 250px;
+                 color: white;
+                 background-color: black;
+                 outline: 10px solid rgb(20, 14, 14);
+        
+            }
+            ul{
+                list-style: none;
+            
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+            .footup{
+            
+                display: block;
+                width: 100%;
+                height: 150px;
+                background-color: black;
+                color: white;
+                outline: 10px solid black;
+            }
+            .vid{
+                 display: block;
+                 position: relative;
+                 left: 12%;
+                 top: 70px;
+                 width: 480px;
+                 
+            }
+            
+
+
+            button{
+                  background-color: red;
+                   
+            }
+            button:hover{
+                background-color: rgb(245, 59, 59);
+            }
+            video{
+                width: 460px;
+                height: 300px;
+                border: 3px solid rgb(75, 45, 45);
+                border-radius: 7px;
+                box-shadow: 6px 1px 5px 10px solid rgb(213, 190, 190);
+            }
+            .footer{
+                width: 100%;
+                height: 200px;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./580b57fcd9996e24bc43c529.png" alt="nets" style="width: 200px; height: 150px;margin-left: 30px;border-radius: 20px;border-color: 2px solid rgb(51, 41, 41);"><div class="frm">
+            <form action="/action_page.php">
+                
+                <select name="languge" id="languge">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="tamil">Tamil</option>
+                   
+                </select>
+                <button >Sign Out</button>
+            </form>
+        </div>
+        </header>
+        <section class="tit">
+           <h2> Welcome back! </h2>
+
+<b style="font-size: 60px;">The biggest Indian hits. The best Indian stories. <br>All streaming here.</b>
+<h2>Watch anywhere. Cancel anytime.</h2>
+        <a href="https://www.netflix.com/signup?locale=en-IN"><button style="width: 200px; height: 50px;background-color: red; font-size: 20px;border-radius:5px;border: none;">Finish Sign Up ></button></a>
+        </section>
+        <section class="fir">
+            <div style="padding-top: 30px;padding-left: 30px;text-align: center;">
+           <h1 style="font-size: 50px;">Enjoy on your TV</h1>
+            <h1>Watch on smart TVs, PlayStation, Xbox, Chromecast, <br>Apple TV, Blu-ray players and more.</h1>
+        </div>
+        <div class="vid">
+            <video controls autoplay>
+                <source src="./video-tv-in-0819 (1).m4v" type="video/mp4" >
+            </video>
+            <!-- <div style="position: absolute;top: -15%;left: -13%; width: 600px; height: 270;z-index: 0.5;"> -->
+            <!-- <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" width="100%" height="100%"> -->
+            <!-- </div> -->
+        </div>
+        </section>
+        <section class="dow">
+          <div>
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="down" style="width: 600px;height: 300px;padding-left: 10px;">
+        </div>
+        <div>
+            <h1 style="font-size: 50px;">Download your shows to <br> watch offline</h1>
+               <h1> Save your favourites easily and always have something to watch.</h1>
+        </div>
+        </section>
+        <section class="wat">
+            <div style=" padding-top:40px;padding-left: 20px; text-align: center;">
+                <h1 style="font-size: 50px;">Watch everywhere</h1>
+               <h1> Stream unlimited movies and TV shows on your <br> phone, tablet, laptop, and TV.</h1>
+            </div>
+            <div style="display:block; padding-left: 150px;">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="" style="width: 100%; height: 100%;">
+            </div>
+
+        </section>
+        <section class="kid" style="text-align: center;">
+            <div style="padding-left: 50px;padding-top: 50px; "><img src="https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt=""></div>
+            <div> 
+                <h1 style="font-size: 50px; padding-top: 30px;padding-right: 50px;">Create profiles for kids</h1>
+                <h1>Send children on adventures with their favourite <br> characters in a space made just for them—free with your membership.</h1>
+            </div>
+        </section>
+        <section class="ask">
+            <h1 style="font-size: 60px;text-align: center;padding-left: 400px;">Frequently Asked Questions</h1>
+        </section>
+        <section class="last">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: black;color: white;">
+                           <h3 style="padding-left: 45%;"> what is netflix ?</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" style="background-color: black;color:white;">
+                        <div class="accordion-body">
+                            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: black;color: white;">
+                            <h3 style="padding-left: 40%;">How much does Netflix cost ?</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="background-color:black;color: white;">
+                        <div class="accordion-body">
+                            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</b></div>
+          </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: black;color: white;">
+                            <h3 style="padding-left: 45%;">Where can I Watch ?</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            </div>
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                        </div>
+                    </div>
+                  </div>
+              </nav>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="background-color: black;color: white;">
+                      <h3 style="padding-left: 45%;">How do I Cancel?</h3>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body" style="background-color: black;color: white;">
+                        Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="background-color: black;color: white;">
+                      <H3 style="padding-left: 40%;">What can I watch on Netflix?</H3>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body" style="background-color: black; color: white;">
+                        Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="background-color: black ;color: white;">
+                      <h3 style="padding-left: 43%;">Is Netflix good for kids?</h3>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body" style="background-color: black;color: white;">
+                        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. </div>
+                  </div>
+                </div>
+              </div>
+              
+          <a href="https://www.netflix.com/signup?locale=en-IN"> <button  style="width: 200px; height: 50px;margin-top: 50px;margin-left: 45%; background-color: red;font-size: 20px;border-radius: 5px;">Finish sign up</button></a>
+        </section>
+        
+        <footer class="foot">
+            
+            <div style="width: 25%;height: 300px;margin-left: 200px;margin-top: 10px;">
+            <ul>
+                <li><p><a href="https://help.netflix.com/en/node/412">FAQ</a></p></li>
+                <li><p><a href="https://media.netflix.com/en/">Media Center</a></p></li>
+                <li><p><a href="https://devices.netflix.com/en/">Ways to Watch</a></p></li>
+                <li><p><a href="https://www.netflix.com/in/">Cookie preference</a></p></li>
+                <li><a href="https://fast.com/">Speed Test</a></li>
+            </ul>
+            </div>
+            <div style="width: 25%;height: 300px;margin-left: 20px;margin-top: 10px;">
+            <ul>
+                <li><p><a href="https://help.netflix.com/en/">Help Center</a></p></li>
+                <li><p><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relators</a></p></li>
+                <li><p><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></p></li>
+                <li><p><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></p></li>
+                <li><p><a href="https://help.netflix.com/legal/notices">Legal Notice</a></p></li>
+            </ul>
+            
+        </div>
+            <div style="width: 25%;height: 300px;margin-left: 20px;margin-top: 10px;">
+           <ul> <li><p><a href="https://www.netflix.com/youraccount">Account</a></p></li>
+            <li><p><a href="https://jobs.netflix.com/">Jobs</a></p></li>
+            <li><p><a href="https://help.netflix.com/legal/privacy">Privacy</a></p></li>
+            <li><p><a href="https://help.netflix.com/en/contactus">Contact Us</a></p></li>
+            <li><p><a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a></p></li>
+           </ul></div>
+        </footer>
+        <section class="footup">
+            <div style="padding-top: 40px;padding-left: 240px;"> <form action="/action_page.php">
+                
+                <select name="languge" id="languge">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="tamil">Tamil</option>
+                   
+                </select><br>
+                <p>Netflix India</p>
+            </form></div>
+             
+        </section>
+        <div class="footer">
+            <h3 style="text-align: left;color: red;padding-left: 15%;padding-top: 20px;">Netflix India</h3>
+          <h4 style="line-height: 55px;">CREATED BY LAVAN | BHARAT INTERN</h4>
+        </div>
+    </body>
+</html>
